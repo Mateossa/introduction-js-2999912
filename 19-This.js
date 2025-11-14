@@ -8,7 +8,7 @@ const reservation3 = {
     isPayed : true,
 
 
-    information : (){
+    information : function(){
         return(`El cliente ${this.userName} reservó y la cantidad a pagar es ${this.totalPay}`);
     }
 }
